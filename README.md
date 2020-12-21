@@ -10,6 +10,14 @@ $ go build -o awsipi main.go
 $ sudo cp awsipi /usr/local/bin/
 $ awsipi help
 ```
+# Do not want to build? 
+The built binary is already in the repo. It is just need to copy to any directory in $PATH
+```
+$ git clone https://github.com/anshulvermapatel/awsipi.git
+$ cd aswipi
+$ sudo cp awsipi /usr/local/bin/
+$ awsipi help
+```
 
 # How to Initiate
 It is required to be logged in to the AWS OpenShift cluster for which `awsipi` is to be used. This is a one time setup which is to be done, post that it is not required to be logged in to the cluster to start/stop instances of that cluster.
